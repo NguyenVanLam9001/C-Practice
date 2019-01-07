@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F8051FFC-20D2-42CE-94EA-96ACAF953F2D}</ProjectGuid>
+    <ProjectGuid>{DC4A965A-0A98-4C65-BDF3-59FB76A88A56}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Ex2</RootNamespace>
+    <RootNamespace>Virus</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DengueVirus.h" />
+    <ClInclude Include="Fluvirus.h" />
+    <ClInclude Include="Patient.h" />
+    <ClInclude Include="Virus.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DengueVirus.cpp" />
+    <ClCompile Include="Fluvirus.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Patient.cpp" />
+    <ClCompile Include="Virus.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
